@@ -81,11 +81,12 @@ namespace Lab1
         {
             Console.WriteLine("Лабораторная работа №1.");
             Console.WriteLine("Моделирование изменения денежных средств на вкладе");
-            Console.WriteLine("Ваганов А.П.");
-            Console.WriteLine("----------------------------------------------------");
-            CalculateOne(0, 0);
-            CalculateTwo(0, 0);
-            CalculateThree(0, 0);
+            Console.WriteLine("Чараев А.П.");
+            int p = 2;
+            int q = 4;
+            CalculateOne(p, q);
+            CalculateTwo(p, q);
+            CalculateThree(p, q);
         }
     }
 }
